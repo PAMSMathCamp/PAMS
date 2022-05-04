@@ -41,13 +41,26 @@ export default function Home() {
 				</div>
 			</div>
 
-			<div className="shrink-0 mt-[200px] mb-[100px] flex items-center justify-center gap-6">
-				<Image src="/prev-1.jpg" width={500} height={375} style={{ borderRadius: 30 }} />
-				<Image src="/prev-2.jpg" width={500} height={375} style={{ borderRadius: 30 }} />
+			<div className="shrink-0 mt-[200px] mb-[100px] flex flex-wrap items-center justify-center gap-6">
+				<div className="xl:relative left-[100px] top-[50px]"><Image src="/prev-1.jpg" width={500} height={375} style={{ borderRadius: 30 }} /></div>
+				<div className="xl:relative right-[100px] bottom-[100px]"><Image className="relative" src="/prev-2.jpg" width={500} height={375} style={{ borderRadius: 30 }} /></div>
 			</div>
 
-			<div>
-				<div className="text-center font-bold text-3xl">Our Team</div>
+			<div className="flex items-center flex-col">
+				<div className="text-center font-bold text-3xl m-3">Our Team</div>
+
+				<div className="text-center lg:max-w-lg m-3">
+					Our team of talented high schoolers is dedicated to nurturing 
+					the interests of young mathematicians. Instructors include <strong>multiple 
+					participants of the MOP</strong> (Math Olympiad Program), <strong>several USA(J)MO 
+					qualifiers</strong>, and students involved in <strong>high-level research.</strong>
+				</div>
+
+				<div className="text-center lg:max-w-lg m-3 mt-10">
+					All proceeds will go towards supporting the <strong>Paly and Gunn Math 
+					Clubs</strong> in the upcoming school year. Financial aid is available, 
+					and registration is on a <strong>first-come first-serve basis.</strong>
+				</div>
 			</div>
 		</div>
 	)

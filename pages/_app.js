@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Footer from '../components/foot'
 import NavBar from '../components/nav'
 import '../styles/globals.css'
 
@@ -16,7 +17,7 @@ function MyApp({ Component, pageProps }) {
 			<Component {...pageProps} />
 		</div>
 
-      	{/* Footer */}
+      	<Footer />
 	</div>
   )
 }
