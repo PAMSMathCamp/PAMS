@@ -22,7 +22,7 @@ export default function Curriculum () {
                 but also in competition math and higher mathematics. Our full list
                 of topics may be found <a 
                     target="_blank"
-                    rel="noreferer noopener"
+                    rel="noopener noreferrer"
                     href="https://docs.google.com/spreadsheets/d/1TlXZw7zvU3CRp7NG8a19Xr1EVq0gn03BrEEd_tpTq8Q/edit#gid=737497406"
                     className="underline"
                 >
