@@ -13,7 +13,7 @@ export default function NavBar () {
             <Image src="/logo.png" width={200} height={73} />
             <div className={router.route === "/" ? 'underline decoration-8' : ''}><Link href="/">About</Link></div>
             <div className={router.route === "/curriculum" ? 'underline decoration-8' : ''}><Link href="/curriculum">Curriculum</Link></div>
-            <div className={router.route === "/contact" ? 'underline decoration-8' : '' + ' mr-auto'}><Link href="/contact">Contact Us</Link></div>
+            <div className={(router.route === "/contact" ? 'underline decoration-8' : '') + ' mr-auto'}><Link href="/contact">Contact Us</Link></div>
 
             <RegisterButton />
         </nav>
@@ -23,7 +23,7 @@ export default function NavBar () {
             <div className="flex justify-center gap-5 mt-2">
                 <div className={router.route === "/" ? 'underline decoration-8' : ''}><Link href="/">About</Link></div>
                 <div className={router.route === "/curriculum" ? 'underline decoration-8' : ''}><Link href="/curriculum">Curriculum</Link></div>
-                <div className={router.route === "/contact" ? 'underline decoration-8' : '' + ' mr-auto'}><Link href="/contact">Contact Us</Link></div>
+                <div className={(router.route === "/contact" ? 'underline decoration-8' : '') + ' mr-auto'}><Link href="/contact">Contact Us</Link></div>
             </div>
         </nav>
     </>
