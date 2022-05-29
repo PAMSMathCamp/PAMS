@@ -12,6 +12,8 @@ const HTMLify = (tex) => {
     for(const key of emph) {
         tex = tex.replaceAll(new RegExp(`\\\\${key}{.+}`, 'g'), (match) => '<em>' + match.slice(key.length+2,match.length-1) + '</em>');
     }
+
+    tex = tex.replaceAll('$', '');
     return tex;
 }
 
