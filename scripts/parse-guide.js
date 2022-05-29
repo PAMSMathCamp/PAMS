@@ -10,7 +10,7 @@ const HTMLify = (tex) => {
 
     const emph = ["textit", "emph"];
     for(const key of emph) {
-        tex = tex.replaceAll(new RegExp(`\\\\${key}{.+}`, 'g'), (match) => '<em>' + match.slice(key.length+2,match.length-1) + '</em>');
+        tex = tex.replaceAll(new RegExp(`\\\\${key}{.+}`, 'g'), (match) => match.slice(key.length+2,match.length-1));
     }
 
     tex = tex.replaceAll('$', '');
