@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import EscapeForm from "../../components/form";
 
 export default function A2() {
