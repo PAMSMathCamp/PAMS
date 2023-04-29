@@ -8,21 +8,21 @@ export default function Home() {
 
 			<div className="flex grow">
 				<div>
-					<div>10th Annual</div>
+					<div>11th Annual</div>
 					<div className="text-4xl font-bold mb-5">Palo Alto Middle School Math Camp</div>
 
 					<div className="my-2">
-						<strong>Location: </strong> Gunn High School
+						<strong>Location: </strong> Palo Alto High School (Paly)
 					</div>
 					
 					<div className="my-2">
-						<strong>Session 1: </strong> June 6th - 10th, 2022 <br />
-						<strong>Session 2: </strong> June 13th - 17th, 2022
+						<strong>Session 1: </strong> June 5th - 9th, 2023 <br />
+						<strong>Session 2: </strong> June 12th - 16th, 2023
 					</div>
 
 					<div className="my-2">
-						<div><strong>Cost: </strong> $250 </div>
-						<div className='text-sm italic'>Financial Aid is Available.</div>
+						<div><strong>Suggested Donation: </strong> $200 </div>
+						<div className='text-sm italic'>(Donation is optional and funds the Paly Math Club.)</div>
 					</div>
 
 					<div className="mb-8 mt-2 lg:max-w-lg">
@@ -51,9 +51,8 @@ export default function Home() {
 
 				<div className="text-center lg:max-w-lg m-3">
 					Our team of talented high schoolers is dedicated to nurturing 
-					the interests of young mathematicians. Instructors include <strong>multiple 
-					participants of the MOP</strong> (Math Olympiad Program), <strong>several USA(J)MO 
-					qualifiers</strong>, and students involved in <strong>high-level research.</strong>
+					the interests of young mathematicians. Instructors include <strong>several USA(J)MO 
+					qualifiers</strong> and students involved in <strong>high-level mathematical research.</strong>
 				</div>
 
 				<div className="text-center lg:max-w-lg m-3 mt-10">

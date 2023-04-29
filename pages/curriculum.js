@@ -26,11 +26,8 @@ export default function Curriculum () {
 
             <div>
                 PAMS Math Camp offers topics in not only standard math curricula 
-                but also in competition math and higher mathematics. Each day, there 
-                will be two 75-minute sessions, each with 3 options that focus on
-                specific topics. The topics are listed below. (On the first block 
-                of the first day, there will be a fun escape-room themed activity
-                to encourage students to get to know each other.)
+                but also in competition math and higher mathematics. The full PAMS
+                curriculum will be available on this website soon!
                 {/* <a 
                     target="_blank"
                     rel="noopener noreferrer"
@@ -41,14 +38,14 @@ export default function Curriculum () {
                 </a>. */}
             </div>
 
-            <div className="mb-10">
+            {/* <div className="mb-10">
                 {blocks.map(([day, block]) => <React.Fragment key={`${day}-${block}`}>
                     <div className="text-2xl font-semibold mb-1 mt-8 mb-2">Day {day} Block {block}</div>
                     <div className="grid xl:grid-cols-3 gap-5">
                         {CLASSES[`${day}-${block}`].map((c) => <Topic {...c} key={c.name} />)}
                     </div>
                 </React.Fragment>)}
-            </div>
+            </div> */}
 
             
         </div>
