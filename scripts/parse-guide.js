@@ -37,7 +37,7 @@ for(let t = 0; t < NUM_BLOCKS; t++) {
         const name = lines[i].substring(start, end);
 
         i++;
-        if(!lines[i].startsWith('\\begin{boxenv}')) throw "Exit 2";
+        if(!lines[i].startsWith('\\begin{boxenv}')) throw "Exit 2" + lines[i];
 
         i++;
         const stars = lines[i].split('\\bigstar').length - 1;
@@ -46,7 +46,7 @@ for(let t = 0; t < NUM_BLOCKS; t++) {
         i++;
         const pre_str = "\\textbf{Prerequisites:}";
         const pre_start = lines[i].indexOf(pre_str);
-        if(pre_start === -1) throw "Exit 4";
+        if(pre_start === -1) throw "Exit 4" + lines[i];
         const prereqs = lines[i].slice( pre_start + pre_str.length + 1 );
 
         i++;

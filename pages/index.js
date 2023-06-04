@@ -12,7 +12,7 @@ export default function Home() {
 					<div className="text-4xl font-bold mb-5">Palo Alto Middle School Math Camp</div>
 
 					<div className="my-2">
-						<strong>Location: </strong> Palo Alto High School (Paly)
+						<strong>Location: </strong> Room 1706 at Palo Alto High School (Paly)
 					</div>
 					
 					<div className="my-2">
@@ -42,8 +42,8 @@ export default function Home() {
 			</div>
 
 			<div className="shrink-0 mt-[200px] mb-[100px] flex flex-wrap items-center justify-center gap-6">
-				<div className="xl:relative left-[100px] top-[50px]"><Image src="/prev-1.jpg" width={500} height={375} style={{ borderRadius: 30 }} /></div>
-				<div className="xl:relative right-[100px] bottom-[100px]"><Image className="relative" src="/prev-2.jpg" width={500} height={375} style={{ borderRadius: 30 }} /></div>
+				<div className="xl:relative left-[100px] top-[50px]"><Image src="/prev-3.jpg" width={500} height={375} style={{ borderRadius: 30 }} /></div>
+				<div className="xl:relative right-[100px] bottom-[100px]"><Image className="relative" src="/prev-4.jpeg" width={500} height={375} style={{ borderRadius: 30 }} /></div>
 			</div>
 
 			<div className="flex items-center flex-col">
