@@ -7,7 +7,7 @@ export default function C() {
             title="C"
             instruction="Submit your answer to C here."
             answer={4}
-            next="Congrats! That's the third number of the combination."
+            next="You're done with part C! Your answer of 4 is the third number of the combination."
         />
     )
 }
