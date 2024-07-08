@@ -8,21 +8,21 @@ export default function Home() {
 
 			<div className="flex grow">
 				<div>
-					<div>11th Annual</div>
+					<div>13th Annual</div>
 					<div className="text-4xl font-bold mb-5">Palo Alto Middle School Math Camp</div>
 
 					<div className="my-2">
-						<strong>Location: </strong> Room 1706 at Palo Alto High School (Paly)
+						<strong>Location: </strong> Palo Verde Elementary School room 11 and 12
 					</div>
 					
 					<div className="my-2">
-						<strong>Session 1: </strong> June 5th - 9th, 2023 <br />
-						<strong>Session 2: </strong> June 12th - 16th, 2023
+						<strong>Session 1: </strong> June 19th - 14th, 2024 <br />
+						<strong>Session 2: </strong> June 17th - 21st, 2024
 					</div>
 
 					<div className="my-2">
 						<div><strong>Suggested Donation: </strong> $200 </div>
-						<div className='text-sm italic'>(Donation is optional and funds the Paly Math Club.)</div>
+						<div className='text-sm italic'>(Donation is optional and funds Paly Math Club and Gunn Math Circle.)</div>
 					</div>
 
 					<div className="mb-8 mt-2 lg:max-w-lg">
