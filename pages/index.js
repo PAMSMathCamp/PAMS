@@ -16,7 +16,7 @@ export default function Home() {
 					</div>
 					
 					<div className="my-2">
-						<strong>Session 1: </strong> June 19th - 14th, 2024 <br />
+						<strong>Session 1: </strong> June 10th - 14th, 2024 <br />
 						<strong>Session 2: </strong> June 17th - 21st, 2024
 					</div>
 
