@@ -8,7 +8,7 @@ export default function Home() {
 
 			<div className="flex grow">
 				<div>
-					<div>13th Annual</div>
+					<div>14th Annual</div>
 					<div className="text-4xl font-bold mb-5">Palo Alto Middle School Math Camp</div>
 
 					<div className="my-2">
@@ -20,8 +20,8 @@ export default function Home() {
 					</div>
 					
 					<div className="my-2">
-						<strong>Session 1: </strong> TBD, 2026 <br />
-						<strong>Session 2: </strong> TBD, 2026
+						<strong>Session 1: </strong> TBD, Likely sometime July<br />
+						<strong>Session 2: </strong> TBD, Likely sometime July
 					</div>
 
 					<div className="my-2">
