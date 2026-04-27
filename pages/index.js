@@ -12,25 +12,25 @@ export default function Home() {
 					<div className="text-4xl font-bold mb-5">Palo Alto Middle School Math Camp</div>
 
 					<div className="my-2">
-						<strong>Location: </strong> Palo Alto High School 
+						<strong>Location: </strong> TBD, likely <b>online</b>
 					</div>
 
 					<div className="my-2">
-						<strong>Time: </strong> 9:00am to 3:00pm 
+						<strong>Time: </strong> TBD
 					</div>
 					
 					<div className="my-2">
-						<strong>Session 1: </strong> July 7th - 11th, 2025 <br />
-						<strong>Session 2: </strong> July 14th - 18th, 2025
+						<strong>Session 1: </strong> TBD, 2026 <br />
+						<strong>Session 2: </strong> TBD, 2026
 					</div>
 
 					<div className="my-2">
-						<div><strong>Suggested Donation: </strong> $500 </div>
-						<div className='text-sm italic'>(Donation is optional and funds Paly Math Club and Gunn Math Circle.)</div>
+						<div><strong>Suggested Donation: </strong> $300 </div>
+						<div className='text-sm italic'>(Your donation helps fund both Paly Math Club and Gunn Math Circle.)</div>
 					</div>
 
 					<div className="mb-8 mt-2 lg:max-w-lg">
-						Organized by members of the <strong>Gunn Math Circle</strong> and <strong>Paly Math Club</strong>,
+						Organized by members of the <strong>Paly Math Club</strong> and <strong>Gunn Math Circle</strong>,
 						the <strong>Palo Alto Middle School</strong> (PAMS) Math Camp aims to build interest
 						in math in middle school students through an exploration of various
 						topics, <strong>several of which are not covered in the standard middle
