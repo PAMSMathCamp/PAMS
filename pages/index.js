@@ -12,7 +12,7 @@ export default function Home() {
 					<div className="text-4xl font-bold mb-5">Palo Alto Middle School Math Camp</div>
 
 					<div className="my-2">
-						<strong>Location: </strong> TBD, likely <b>online</b>
+						<strong>Location: </strong> <b>Online</b>
 					</div>
 
 					<div className="my-2">
@@ -20,17 +20,16 @@ export default function Home() {
 					</div>
 					
 					<div className="my-2">
-						<strong>Session 1: </strong> TBD, Likely sometime July<br />
-						<strong>Session 2: </strong> TBD, Likely sometime July
+						<strong>Session 1: </strong> TBD, Likely sometime June<br />
+						<strong>Session 2: </strong> August 3-7, 2026
 					</div>
 
 					<div className="my-2">
 						<div><strong>Suggested Donation: </strong> $300 </div>
-						<div className='text-sm italic'>(Your donation helps fund both Paly Math Club and Gunn Math Circle.)</div>
 					</div>
 
 					<div className="mb-8 mt-2 lg:max-w-lg">
-						Organized by members of the <strong>Paly Math Club</strong> and <strong>Gunn Math Circle</strong>,
+						Organized by students from the <strong>Paly Math Club and Gunn Math Circle</strong>,
 						the <strong>Palo Alto Middle School</strong> (PAMS) Math Camp aims to build interest
 						in math in middle school students through an exploration of various
 						topics, <strong>several of which are not covered in the standard middle
@@ -63,6 +62,10 @@ export default function Home() {
 					All proceeds will go towards supporting the <strong>Paly and Gunn Math 
 					Clubs</strong> in the upcoming school year. Financial aid is available, 
 					and registration is on a <strong>first-come first-serve basis.</strong>
+				</div>
+
+				<div className="text-center lg:max-w-lg m-3 mt-10">
+					<strong>Disclaimer:</strong> For the 2026 annual PAMS Math Camp, we are not affiliated with the Palo Alto Unified School District. This camp is run independently by students from Palo Alto, and the camp itself is not associated with either Paly nor Gunn. 
 				</div>
 			</div>
 		</div>
