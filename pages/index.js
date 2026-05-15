@@ -16,11 +16,11 @@ export default function Home() {
 					</div>
 
 					<div className="my-2">
-						<strong>Time: </strong> TBD
+						<strong>Time: </strong> 10AM - 3PM 
 					</div>
 					
 					<div className="my-2">
-						<strong>Session 1: </strong> TBD, Likely sometime June<br />
+						<strong>Session 1: </strong> July 27-31, 2026<br />
 						<strong>Session 2: </strong> August 3-7, 2026
 					</div>
 
