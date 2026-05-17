@@ -25,7 +25,7 @@ export default function Curriculum () {
             <div className="text-4xl font-bold mb-5">Curriculum</div>
 
             <div>
-                PAMS Math Camp offers topics in not only standard math curricula 
+                PAMS Math Camp offers topics in not only standard math curricula, 
                 but also in competition math and higher mathematics. (There will be an 
                 escape room activity on Day 1 Block 1.) This curriculum is from a previous
                 year of PAMS. The following page will be updated for 2026 very soon!
