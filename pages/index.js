@@ -16,16 +16,15 @@ export default function Home() {
 					</div>
 
 					<div className="my-2">
-						<strong>Time: </strong> TBD
+						<strong>Time: </strong> 10:00 - 3:00 PM PST
 					</div>
 					
 					<div className="my-2">
-						<strong>Session 1: </strong> TBD, Likely sometime June<br />
-						<strong>Session 2: </strong> August 3-7, 2026
+						<strong>Dates: </strong> August 3-7, 2026
 					</div>
 
 					<div className="my-2">
-						<div><strong>Suggested Donation: </strong> $300 </div>
+						<div><strong>Suggested Donation: </strong> $400 per camper </div>
 					</div>
 
 					<div className="mb-8 mt-2 lg:max-w-lg">
@@ -65,7 +64,10 @@ export default function Home() {
 				</div>
 
 				<div className="text-center lg:max-w-lg m-3 mt-10">
-					<strong>Disclaimer:</strong> For the 2026 annual PAMS Math Camp, we are not affiliated with the Palo Alto Unified School District. This camp is run independently by students from Palo Alto, and the camp itself is not associated with either Paly nor Gunn. 
+					<strong>Disclaimer:</strong> For the 2026 annual PAMS Math Camp, we are 
+					not affiliated with the Palo Alto Unified School District. This camp is 
+					run independently by students from Palo Alto, and the camp itself is not 
+					associated with either Paly nor Gunn. 
 				</div>
 			</div>
 		</div>
